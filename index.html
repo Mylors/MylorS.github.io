@@ -23,7 +23,7 @@
       background-color: #3F2F2F;
       color: #FF9090;
       padding: 20px;
-      animation: slide-up 1s ease, fadeIn 5s;
+      animation: slide-up 1s ease, fadeIn 3s;
       font-family: 'Arimo', sans-serif;
       position: relative;
     }
@@ -46,6 +46,12 @@
       0% { transform: translateY(100%); }
       100% { transform: translateY(0); }
     }
+
+    @keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 
 
   </style>
